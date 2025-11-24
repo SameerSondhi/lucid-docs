@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import AppLayout from "@/app/components/AppLayout";
+import AppLayout from "./components/AppLayout";
 
 export default function NewDocPage() {
     const [title, setTitle] = useState('');

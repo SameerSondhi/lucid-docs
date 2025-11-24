@@ -61,7 +61,7 @@ export default function Home() {
         <section className="py-24 px-6 sm:px-20 bg-gradient-to-t from-purple-50 to-white text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-indigo-500">Bring Order to Chaos</h2>
           <p className="max-w-2xl mx-auto text-gray-600 mb-10">
-            Whether you're a startup founder, a growing team, or a solo creator, LucidDocs helps you turn scattered documents into a single source of truth.
+            Whether you are a startup founder, a growing team, or a solo creator, LucidDocs helps you turn scattered documents into a single source of truth.
           </p>
           <Image
               src="/docstudio-preview.png" // Replace with your own preview

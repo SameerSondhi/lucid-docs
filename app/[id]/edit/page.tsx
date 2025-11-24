@@ -1,7 +1,7 @@
 'use client';
 import { useParams, useRouter } from 'next/navigation';
 import { useState } from 'react';
-import AppLayout from "@/app/components/AppLayout";
+import AppLayout from "./components/AppLayout";
 
 export default function EditDocPage() {
     const params = useParams<{ id: string }>();

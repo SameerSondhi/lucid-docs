@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import AppLayout from "@/app/components/AppLayout";
+import AppLayout from "./components/AppLayout";
 
 const dummyDocs = [
     { id: '1', title: 'First Doc', createdAt: '2025-07-06' },

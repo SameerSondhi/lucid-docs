@@ -1,6 +1,6 @@
 'use client';
 import { useParams } from 'next/navigation';
-import AppLayout from "@/app/components/AppLayout";
+import AppLayout from "./components/AppLayout";
 
 export default function ViewDocPage() {
     const params = useParams<{ id: string }>();
